@@ -21,7 +21,7 @@
     const actions = ['invert', 'check', 'uncheck'];
     const buttons = actions.map(action => {
         const btn = document.createElement('button');
-        btn.textContent = `${action} All`;
+        btn.textContent = `${action} all`;
         btn.style.position = 'fixed';
         btn.style.bottom = `${30 * (actions.indexOf(action) + 1)}px`; // Adjust position based on index
         btn.style.right = '20px';
